@@ -91,9 +91,8 @@ export default {
   width: 100%;
 
   @media screen and (min-width: $screen-sm-min) {
-    margin-right: 2%;
     padding-top: 0;
-    width: 48%;
+    width: 50%;
   }
 }
 
