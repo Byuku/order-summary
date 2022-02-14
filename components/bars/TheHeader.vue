@@ -16,17 +16,18 @@ export default {
 
 <style lang="scss" scoped>
   .header {
-    max-height: 75px;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    place-content: center;
-    background-color: rgba(255, 255, 255, 0.3);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
     box-shadow: 0px 0px 3px 1px #ccc;
+    display: flex;
+    height: 100%;
+    max-height: 75px;
+    padding: 10px;
+    place-content: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 
     &__img {
       width: 60px;
