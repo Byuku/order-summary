@@ -1,5 +1,9 @@
 # order-summary
 
+## Context
+Technical test where I had to develop an order summary page.
+Nuxt.js / Axios / Sass 
+
 ## Build Setup
 
 ```bash
